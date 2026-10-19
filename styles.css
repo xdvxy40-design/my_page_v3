@@ -1,0 +1,128 @@
+/* สไตล์สำหรับหน้า Fansite R9 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fa;
+    color: #202124;
+}
+
+.fansite-container {
+    max-width: 850px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.06);
+}
+
+/* ส่วนหัวธีมทีมชาติบราซิล */
+.hero-section {
+    text-align: center;
+    background: linear-gradient(135deg, #009c3b 0%, #002776 100%);
+    color: #fff;
+    padding: 50px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* บังคับรูปวงกลมสมบูรณ์ 100% ไม่บิดเบี้ยว */
+.idol-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 5px solid #ffdf00; /* ขอบสีเหลืองทองทองบราซิล */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin: 15px 0 5px 0;
+    font-size: 2.6rem;
+    color: #ffdf00; /* ชื่อสีเหลืองเด่นชัด */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #f8f9fa;
+    margin-top: 5px;
+}
+
+.content-section {
+    margin-bottom: 35px;
+}
+
+.content-section h2 {
+    color: #002776;
+    border-bottom: 4px solid #ffdf00;
+    padding-bottom: 8px;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.bio-text {
+    line-height: 1.8;
+    font-size: 1.05rem;
+    color: #4a4a4a;
+}
+
+/* ตารางข้อมูลประวัติส่วนตัว */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info-table td {
+    padding: 14px;
+    border-bottom: 1px solid #e8ecef;
+    font-size: 1rem;
+}
+
+.info-table td.label {
+    font-weight: bold;
+    color: #009c3b;
+    width: 30%;
+}
+
+/* ตารางแสดงสถิติและผลงานเด่น */
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.stats-table th, .stats-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+.stats-table th {
+    background-color: #009c3b;
+    color: white;
+}
+
+.stats-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* ส่วนของ Footer */
+footer {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 20px;
+    border-top: 1px solid #e8ecef;
+    color: #70757a;
+    font-size: 0.95rem;
+}
+
+footer a {
+    color: #002776;
+    text-decoration: none;
+    font-weight: bold;
+}
